@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+*{
+    font-family: outfit;
+    
+}
+body {
+    background-image: url("assets/top-view-two-stethoscopes-syringe-white-background-with-plenty-copy-space_885831-86451.avif");
+    background-repeat:repeat-x;
+    background-size : cover;
+  }
